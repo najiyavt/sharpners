@@ -1,0 +1,7 @@
+
+const listname = document.getElementsByTagName('li');
+listname[4].style.color = 'blue';
+
+for(let i =0 ; i < listname.length ; i ++){
+  listname[i].style.fontStyle = 'italic';
+}
